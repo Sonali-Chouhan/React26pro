@@ -1,8 +1,9 @@
 
 import React from 'react'
-import Data from './Component/Data'
-import Fatch from './Component/Fatch'
-import GoogleMap from './Component/GoogleMap'
+// import Data from './Component/Data'
+// import Fatch from './Component/Fatch'
+// import GoogleMap from './Component/GoogleMap'
+import Record from './Component/Record'
 
 const App = () => {
   const data=process.env.REACT_APP_GOOGLE_MAPS_API_KEY
@@ -11,7 +12,8 @@ const App = () => {
     <div>
       {/* <GoogleMap/> */}
       {/* <Data/> */}
-      <Fatch/>
+      {/* <Fatch/> */}
+      <Record/>
     </div>
   )
 }
