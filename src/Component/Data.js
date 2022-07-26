@@ -151,5 +151,4 @@ import {
       </Flex>
     )
   }
-  export default Data
-  
+  export default Data;
